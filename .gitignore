@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.wrangler/
+
+# Backup local idêntico a public/index.html — não versionar
+index_1.html
+
+# Config local do Claude Code, exceto o launch.json (útil para o time)
+.claude/*
+!.claude/launch.json
